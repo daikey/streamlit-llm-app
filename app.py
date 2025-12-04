@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 
 import streamlit as st
-from langchain.openai import chatopenai
+from langchain_openai import ChatOpenAI
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 
