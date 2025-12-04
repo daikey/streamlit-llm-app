@@ -9,7 +9,7 @@ from langchain.prompts import PromptTemplate
 load_dotenv()
 
 def call_llm(user_input: str, expert_type: str) -> str:
-    llm = chatopenai.ChatOpenAI(
+    llm = ChatOpenAI(
         model="gpt-3.5-turbo",
         temperature=0.7
     )
